@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Npubegreber>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>1996-01-01 01:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01001</npu_code>
+        <short_definition>U—Acebutolol; arb.c.(IOC Screen; 0 1) = ?</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acebutolol</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>arb.c.</kind_of_property_short>
+        <proc_short>IOC Screen; 0 1 </proc_short>
+        <unit_short></unit_short>
+        <full_definition>Urine—Acebutolol; arbitrary concentration(IOC Screen; 0 1) = ?</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acebutolol</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>arbitrary concentration</kind_of_property>
+        <proc>IOC Screen; 0 1 </proc>
+        <unit></unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ordinal</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-01-01 01:00</effective_from>
+        <effective_to>2021-10-21 16:18</effective_to>
+        <active>1</active>
+        <current_version>false</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>2021-10-21 16:19</change_date>
+        <change_comment>Retired, no replacement</change_comment>
+        <npu_code>NPU01001</npu_code>
+        <short_definition>U—Acebutolol; arb.c.(IOC Screen; 0 1) = ?</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acebutolol</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>arb.c.</kind_of_property_short>
+        <proc_short>IOC Screen; 0 1 </proc_short>
+        <unit_short></unit_short>
+        <full_definition>Urine—Acebutolol; arbitrary concentration(IOC Screen; 0 1) = ?</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acebutolol</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>arbitrary concentration</kind_of_property>
+        <proc>IOC Screen; 0 1 </proc>
+        <unit></unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ordinal</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>2021-10-21 16:19</effective_from>
+        <effective_to></effective_to>
+        <active>0</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>1996-01-01 01:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01002</npu_code>
+        <short_definition>U—Acebutolol; arb.c.(IOC Confirm; 0 1) = ?</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acebutolol</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>arb.c.</kind_of_property_short>
+        <proc_short>IOC Confirm; 0 1 </proc_short>
+        <unit_short></unit_short>
+        <full_definition>Urine—Acebutolol; arbitrary concentration(IOC Confirm; 0 1) = ?</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acebutolol</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>arbitrary concentration</kind_of_property>
+        <proc>IOC Confirm; 0 1 </proc>
+        <unit></unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ordinal</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-01-01 01:00</effective_from>
+        <effective_to>2008-05-30 01:59</effective_to>
+        <active>1</active>
+        <current_version>false</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>2008-05-30 02:00</change_date>
+        <change_comment>Retired, no replacement</change_comment>
+        <npu_code>NPU01002</npu_code>
+        <short_definition>U—Acebutolol; arb.c.(IOC Confirm; 0 1) = ?</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acebutolol</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>arb.c.</kind_of_property_short>
+        <proc_short>IOC Confirm; 0 1 </proc_short>
+        <unit_short></unit_short>
+        <full_definition>Urine—Acebutolol; arbitrary concentration(IOC Confirm; 0 1) = ?</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acebutolol</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>arbitrary concentration</kind_of_property>
+        <proc>IOC Confirm; 0 1 </proc>
+        <unit></unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ordinal</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>2008-05-30 02:00</effective_from>
+        <effective_to></effective_to>
+        <active>0</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1997-04-22 02:00</created_date>
+        <change_date>1997-04-22 02:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01003</npu_code>
+        <short_definition>U—Acebutolol; subst.c. = ? µmol/L</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acebutolol</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short></proc_short>
+        <unit_short>µmol/L</unit_short>
+        <full_definition>Urine—Acebutolol; substance concentration = ? micromole per litre</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acebutolol</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc></proc>
+        <unit>micromole per litre</unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1997-04-22 02:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>1996-01-01 01:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01004</npu_code>
+        <short_definition>P—Acepromazine; subst.c. = ? µmol/L</short_definition>
+        <system_short>P</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acepromazine</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short></proc_short>
+        <unit_short>µmol/L</unit_short>
+        <full_definition>Plasma—Acepromazine; substance concentration = ? micromole per litre</full_definition>
+        <system>Plasma</system>
+        <sys_spec></sys_spec>
+        <component>Acepromazine</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc></proc>
+        <unit>micromole per litre</unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-01-01 01:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>1996-01-01 01:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01005</npu_code>
+        <short_definition>B—Acetaldehyde; subst.c. = ? µmol/L</short_definition>
+        <system_short>B</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetaldehyde</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short></proc_short>
+        <unit_short>µmol/L</unit_short>
+        <full_definition>Blood—Acetaldehyde; substance concentration = ? micromole per litre</full_definition>
+        <system>Blood</system>
+        <sys_spec></sys_spec>
+        <component>Acetaldehyde</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc></proc>
+        <unit>micromole per litre</unit>
+        <specialty>CLC</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-01-01 01:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>1996-01-01 01:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01006</npu_code>
+        <short_definition>U—Acetaldehyde; subst.c. = ? µmol/L</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetaldehyde</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short></proc_short>
+        <unit_short>µmol/L</unit_short>
+        <full_definition>Urine—Acetaldehyde; substance concentration = ? micromole per litre</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acetaldehyde</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc></proc>
+        <unit>micromole per litre</unit>
+        <specialty>CLC</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-01-01 01:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>1996-01-01 01:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01007</npu_code>
+        <short_definition>U—Acetazolamide; arb.c.(IOC Screen; 0 1) = ?</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetazolamide</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>arb.c.</kind_of_property_short>
+        <proc_short>IOC Screen; 0 1 </proc_short>
+        <unit_short></unit_short>
+        <full_definition>Urine—Acetazolamide; arbitrary concentration(IOC Screen; 0 1) = ?</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acetazolamide</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>arbitrary concentration</kind_of_property>
+        <proc>IOC Screen; 0 1 </proc>
+        <unit></unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ordinal</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-01-01 01:00</effective_from>
+        <effective_to>2021-10-21 16:18</effective_to>
+        <active>1</active>
+        <current_version>false</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>2021-10-21 16:19</change_date>
+        <change_comment>Retired, no replacement</change_comment>
+        <npu_code>NPU01007</npu_code>
+        <short_definition>U—Acetazolamide; arb.c.(IOC Screen; 0 1) = ?</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetazolamide</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>arb.c.</kind_of_property_short>
+        <proc_short>IOC Screen; 0 1 </proc_short>
+        <unit_short></unit_short>
+        <full_definition>Urine—Acetazolamide; arbitrary concentration(IOC Screen; 0 1) = ?</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acetazolamide</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>arbitrary concentration</kind_of_property>
+        <proc>IOC Screen; 0 1 </proc>
+        <unit></unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ordinal</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>2021-10-21 16:19</effective_from>
+        <effective_to></effective_to>
+        <active>0</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>1996-01-01 01:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01008</npu_code>
+        <short_definition>U—Acetazolamide; arb.c.(IOC Confirm; 0 1) = ?</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetazolamide</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>arb.c.</kind_of_property_short>
+        <proc_short>IOC Confirm; 0 1 </proc_short>
+        <unit_short></unit_short>
+        <full_definition>Urine—Acetazolamide; arbitrary concentration(IOC Confirm; 0 1) = ?</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acetazolamide</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>arbitrary concentration</kind_of_property>
+        <proc>IOC Confirm; 0 1 </proc>
+        <unit></unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ordinal</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-01-01 01:00</effective_from>
+        <effective_to>2008-05-14 01:59</effective_to>
+        <active>1</active>
+        <current_version>false</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>2008-05-14 02:00</change_date>
+        <change_comment>Retired, no replacement</change_comment>
+        <npu_code>NPU01008</npu_code>
+        <short_definition>U—Acetazolamide; arb.c.(IOC Confirm; 0 1) = ?</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetazolamide</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>arb.c.</kind_of_property_short>
+        <proc_short>IOC Confirm; 0 1 </proc_short>
+        <unit_short></unit_short>
+        <full_definition>Urine—Acetazolamide; arbitrary concentration(IOC Confirm; 0 1) = ?</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acetazolamide</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>arbitrary concentration</kind_of_property>
+        <proc>IOC Confirm; 0 1 </proc>
+        <unit></unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ordinal</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>2008-05-14 02:00</effective_from>
+        <effective_to></effective_to>
+        <active>0</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>1996-01-01 01:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01009</npu_code>
+        <short_definition>U—Acetazolamide; subst.c. = ? µmol/L</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetazolamide</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short></proc_short>
+        <unit_short>µmol/L</unit_short>
+        <full_definition>Urine—Acetazolamide; substance concentration = ? micromole per litre</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acetazolamide</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc></proc>
+        <unit>micromole per litre</unit>
+        <specialty>CLP</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-01-01 01:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-09-02 02:00</created_date>
+        <change_date>1996-09-02 02:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01010</npu_code>
+        <short_definition>Csf—Acetoacetate; subst.c. = ? mmol/L</short_definition>
+        <system_short>Csf</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetoacetate</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short></proc_short>
+        <unit_short>mmol/L</unit_short>
+        <full_definition>Cerebrospinal fluid—Acetoacetate; substance concentration = ? millimole per
+            litre</full_definition>
+        <system>Cerebrospinal fluid</system>
+        <sys_spec></sys_spec>
+        <component>Acetoacetate</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc></proc>
+        <unit>millimole per litre</unit>
+        <specialty>CLC</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-09-02 02:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-09-02 02:00</created_date>
+        <change_date>1996-09-02 02:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01011</npu_code>
+        <short_definition>P—Acetoacetate; subst.c. = ? mmol/L</short_definition>
+        <system_short>P</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetoacetate</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short></proc_short>
+        <unit_short>mmol/L</unit_short>
+        <full_definition>Plasma—Acetoacetate; substance concentration = ? millimole per litre</full_definition>
+        <system>Plasma</system>
+        <sys_spec></sys_spec>
+        <component>Acetoacetate</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc></proc>
+        <unit>millimole per litre</unit>
+        <specialty>CLC</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-09-02 02:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-09-02 02:00</created_date>
+        <change_date>1996-09-02 02:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01012</npu_code>
+        <short_definition>U—Acetoacetate; subst.c.(pauciscale;proc.) = ? mmol/L</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetoacetate</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short>pauciscale; proc. </proc_short>
+        <unit_short>mmol/L</unit_short>
+        <full_definition>Urine—Acetoacetate; substance concentration(pauciscale;procedure) = ?
+            millimole per litre</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acetoacetate</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc>pauciscale; procedure </proc>
+        <unit>millimole per litre</unit>
+        <specialty>CLC</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-09-02 02:00</effective_from>
+        <effective_to>2021-10-25 13:18</effective_to>
+        <active>1</active>
+        <current_version>false</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-09-02 02:00</created_date>
+        <change_date>2021-10-25 13:19</change_date>
+        <change_comment>Retired, replaced by NPU10504</change_comment>
+        <npu_code>NPU01012</npu_code>
+        <short_definition>U—Acetoacetate; subst.c.(pauciscale;proc.) = ? mmol/L</short_definition>
+        <system_short>U</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Acetoacetate</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short>pauciscale; proc. </proc_short>
+        <unit_short>mmol/L</unit_short>
+        <full_definition>Urine—Acetoacetate; substance concentration(pauciscale;procedure) = ?
+            millimole per litre</full_definition>
+        <system>Urine</system>
+        <sys_spec></sys_spec>
+        <component>Acetoacetate</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc>pauciscale; procedure </proc>
+        <unit>millimole per litre</unit>
+        <specialty>CLC</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by>NPU10504</replaced_by>
+        <effective_from>2021-10-25 13:19</effective_from>
+        <effective_to></effective_to>
+        <active>0</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1997-10-14 02:00</created_date>
+        <change_date>1997-10-14 02:00</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU01013</npu_code>
+        <short_definition>P—Alkaline phosphatase, liver type; cat.c.(37 °C;proc.) = ? µkat/l</short_definition>
+        <system_short>P</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Alkaline phosphatase, liver type</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>cat.c.</kind_of_property_short>
+        <proc_short>37 °C; proc. </proc_short>
+        <unit_short>µkat/L</unit_short>
+        <full_definition>Plasma—Alkaline phosphatase, liver type; catalytic-activity
+            concentration(37 °C;procedure) = ? microkatal per litre</full_definition>
+        <system>Plasma</system>
+        <sys_spec></sys_spec>
+        <component>Alkaline phosphatase, liver type</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>catalytic-activity concentration</kind_of_property>
+        <proc>37 °C; procedure </proc>
+        <unit>microkatal per litre</unit>
+        <specialty>CLC</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1997-10-14 02:00</effective_from>
+        <effective_to>2016-11-23 14:57</effective_to>
+        <active>1</active>
+        <current_version>false</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>1997-10-14 02:00</created_date>
+        <change_date>2016-11-23 14:58</change_date>
+        <change_comment>Name changed</change_comment>
+        <npu_code>NPU01013</npu_code>
+        <short_definition>P—Alkaline phosphatase, liver type; cat.c.(37 °C;proc.) = ? µkat/L</short_definition>
+        <system_short>P</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Alkaline phosphatase, liver type</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>cat.c.</kind_of_property_short>
+        <proc_short>37 °C; proc. </proc_short>
+        <unit_short>µkat/L</unit_short>
+        <full_definition>Plasma—Alkaline phosphatase, liver type; catalytic-activity
+            concentration(37 °C;procedure) = ? microkatal per litre</full_definition>
+        <system>Plasma</system>
+        <sys_spec></sys_spec>
+        <component>Alkaline phosphatase, liver type</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>catalytic-activity concentration</kind_of_property>
+        <proc>37 °C; procedure </proc>
+        <unit>microkatal per litre</unit>
+        <specialty>CLC</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1997-10-14 02:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+</Npubegreber>
