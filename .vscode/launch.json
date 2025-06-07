@@ -20,7 +20,7 @@
                     "kind": "bin"
                 }
             },
-            "args": ["--input", "testdata/npu_test_data.xml"],
+            "args": ["testdata/npu_test_data.xml"],
             "cwd": "${workspaceFolder}"
         },
         {
