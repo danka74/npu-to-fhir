@@ -33,15 +33,20 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let code_system = CodeSystem::builder()
         .id("npu-terminology".to_owned())
         .language("en-GB".to_owned())
-        // .extension(vec![
-        //         types::Extension::builder()
-        //             .url("http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile".to_owned())
-        //             .value(types::ExtensionValue::Canonical(
-        //                 "http://hl7.org/fhir/StructureDefinition/shareablecodesystem".to_owned(),
-        //             ))
-        //             .build()
-        //             .expect("Failed to build Extension")
-        // ])
+        .text(
+            types::Narrative::builder()
+                .status(codes::NarrativeStatus::Empty)
+                .div("<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-GB\" xml:lang=\"en-GB\">Concepts not shown due to size of code system.</div>".to_owned())
+                .build()
+                .expect("Failed to build Narrative"),
+        )
+        .extension(vec![types::Extension::builder()
+            .url("http://hl7.org/fhir/StructureDefinition/codesystem-use-markdown".to_owned())
+            .value(
+                types::ExtensionValue::Boolean(false)
+            )
+            .build()
+            .expect("Failed to build Extension")])
         .url("http://npu-terminology.org".to_owned())
         .identifier(vec![Some(
             types::Identifier::builder()
@@ -91,105 +96,103 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .property(vec![
             Some(resources::CodeSystemProperty::builder()
                 .code("created_date".to_owned())
-                .uri("http://npu-terminology.org/property/created_date".to_owned())
+                .uri("http://npu-terminology.org/property#created_date".to_owned())
                 .description("The date when the NPU code was created".to_owned())
                 .r#type(codes::PropertyType::DateTime)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("change_date".to_owned())
-                .uri("http://npu-terminology.org/property/change_date".to_owned())
-                .description("The date when the NPU code was last changed".to_owned())
+                .uri("http://npu-terminology.org/property#change_date".to_owned())
                 .r#type(codes::PropertyType::DateTime)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
+                .code("status".to_owned())
+                .uri("http://hl7.org/fhir/concept-properties#status".to_owned())
+                .r#type(codes::PropertyType::Code)
+                .build()
+                .expect("Failed to build CodeSystemProperty")),
+            Some(resources::CodeSystemProperty::builder()
                 .code("system".to_owned())
-                .uri("http://npu-terminology.org/property/system".to_owned())
+                .uri("http://npu-terminology.org/property#system".to_owned())
                 .description("The system of the the NPU code belongs".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()   
                 .code("sys_spec".to_owned())
-                .uri("http://npu-terminology.org/property/sys_spec".to_owned())
+                .uri("http://npu-terminology.org/property#sys_spec".to_owned())
                 .description("The system specification of the NPU code".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("component".to_owned())
-                .uri("http://npu-terminology.org/property/component".to_owned())
+                .uri("http://npu-terminology.org/property#component".to_owned())
                 .description("The component of the NPU code".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("comp_spec".to_owned())
-                .uri("http://npu-terminology.org/property/comp_spec".to_owned())
+                .uri("http://npu-terminology.org/property#comp_spec".to_owned())
                 .description("The component specification of the NPU code".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("kind_of_property".to_owned())
-                .uri("http://npu-terminology.org/property/kind_of_property".to_owned())
+                .uri("http://npu-terminology.org/property#kind_of_property".to_owned())
                 .description("The kind of property of the NPU code".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("proc".to_owned())
-                .uri("http://npu-terminology.org/property/proc".to_owned())
+                .uri("http://npu-terminology.org/property#proc".to_owned())
                 .description("The procedure associated with the NPU code".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("unit".to_owned())
-                .uri("http://npu-terminology.org/property/unit".to_owned())
+                .uri("http://npu-terminology.org/property#unit".to_owned())
                 .description("The unit of measurement for the NPU code".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("specialty".to_owned())
-                .uri("http://npu-terminology.org/property/specialty".to_owned())
+                .uri("http://npu-terminology.org/property#specialty".to_owned())
                 .description("The specialty associated with the NPU code".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("context_dependent".to_owned())
-                .uri("http://npu-terminology.org/property/context_dependent".to_owned())
+                .uri("http://npu-terminology.org/property#context_dependent".to_owned())
                 .description("Indicates if the NPU code is context dependent".to_owned())
                 .r#type(codes::PropertyType::Boolean)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("scale_type".to_owned())
-                .uri("http://npu-terminology.org/property/scale_type".to_owned())
+                .uri("http://npu-terminology.org/property#scale_type".to_owned())
                 .description("The scale type of the NPU code".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
                 .code("replaces".to_owned())
-                .uri("http://npu-terminology.org/property/replaces".to_owned())
+                .uri("http://npu-terminology.org/property#replaces".to_owned())
                 .description("The NPU code that this code replaces".to_owned())
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
-                .code("active".to_owned())
-                .uri("http://npu-terminology.org/property/active".to_owned())
-                .description("Indicates if the NPU code is active".to_owned())
-                .r#type(codes::PropertyType::Boolean)
-                .build()
-                .expect("Failed to build CodeSystemProperty")),
-            Some(resources::CodeSystemProperty::builder()
                 .code("current_version".to_owned())
-                .uri("http://npu-terminology.org/property/current_version".to_owned())
+                .uri("http://npu-terminology.org/property#current_version".to_owned())
                 .description("Indicates if this is the current version of the NPU code".to_owned())
                 .r#type(codes::PropertyType::Boolean)
                 .build()
@@ -200,7 +203,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let mut count = 0;
     for npubegreb in data.npubegreb {
-        if (npubegreb.active != "1") || (npubegreb.current_version != "true") {
+        if npubegreb.current_version != "true" {
             continue;
         }
 
@@ -217,6 +220,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     vec![
                         add_if_not_empty_date("created_date".to_owned(), npubegreb.created_date),
                         add_if_not_empty_date("change_date".to_owned(), npubegreb.change_date),
+                        add_if_not_empty_code("status".to_owned(), if npubegreb.active == "1" { "active".to_owned() } else { "retired".to_owned() }),
                         add_if_not_empty_string("system".to_owned(), npubegreb.system),
                         add_if_not_empty_string("sys_spec".to_owned(), npubegreb.sys_spec),
                         add_if_not_empty_string("component".to_owned(), npubegreb.component),
@@ -234,7 +238,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                         ),
                         add_if_not_empty_string("scale_type".to_owned(), npubegreb.scale_type),
                         add_if_not_empty_string("replaces".to_owned(), npubegreb.replaces),
-                        add_bool("active".to_owned(), npubegreb.active == "1"),
                         add_bool(
                             "current_version".to_owned(),
                             npubegreb.current_version == "true",
@@ -286,6 +289,23 @@ fn add_if_not_empty_string(
             resources::CodeSystemConceptProperty::builder()
                 .code(property)
                 .value(resources::CodeSystemConceptPropertyValue::String(str))
+                .build()
+                .expect("Failed to build CodeSystemConceptProperty"),
+        )
+    } else {
+        None
+    }
+}
+
+fn add_if_not_empty_code(
+    property: String,
+    str: String,
+) -> Option<resources::CodeSystemConceptProperty> {
+    if !str.is_empty() {
+        Some(
+            resources::CodeSystemConceptProperty::builder()
+                .code(property)
+                .value(resources::CodeSystemConceptPropertyValue::Code(str))
                 .build()
                 .expect("Failed to build CodeSystemConceptProperty"),
         )
