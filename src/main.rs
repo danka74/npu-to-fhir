@@ -190,13 +190,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 .r#type(codes::PropertyType::String)
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
-            Some(resources::CodeSystemProperty::builder()
+            /* Some(resources::CodeSystemProperty::builder()
                 .code("current_version".to_owned())
                 .uri("http://npu-terminology.org/property#current_version".to_owned())
                 .description("Indicates if this is the current version of the NPU code".to_owned())
                 .r#type(codes::PropertyType::Boolean)
                 .build()
-                .expect("Failed to build CodeSystemProperty")),
+                .expect("Failed to build CodeSystemProperty")), */
         ]);
 
     let mut concept = Vec::<Option<resources::CodeSystemConcept>>::new();
@@ -238,10 +238,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                         ),
                         add_if_not_empty_string("scale_type".to_owned(), npubegreb.scale_type),
                         add_if_not_empty_string("replaces".to_owned(), npubegreb.replaces),
-                        add_bool(
+                        /* add_bool(
                             "current_version".to_owned(),
                             npubegreb.current_version == "true",
-                        ),
+                        ), */
                     ]
                     .into_iter()
                     .filter(Option::is_some)
