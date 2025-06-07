@@ -116,6 +116,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 .build()
                 .expect("Failed to build CodeSystemProperty")),
             Some(resources::CodeSystemProperty::builder()
+                .code("inactive".to_owned())
+                .uri("http://hl7.org/fhir/concept-properties#inactive".to_owned())
+                .description("True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false".to_owned())
+                .r#type(codes::PropertyType::Boolean)
+                .build()
+                .expect("Failed to build CodeSystemProperty")),
+            Some(resources::CodeSystemProperty::builder()
                 .code("system".to_owned())
                 .uri("http://npu-terminology.org/property#system".to_owned())
                 .description("The system of the the NPU concept".to_owned())
@@ -223,6 +230,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                         add_if_not_empty_date("created_date".to_owned(), npubegreb.created_date),
                         add_if_not_empty_date("change_date".to_owned(), npubegreb.change_date),
                         add_if_not_empty_code("status".to_owned(), if npubegreb.active == "1" { "active".to_owned() } else { "retired".to_owned() }),
+                        add_bool("inactive".to_owned(), npubegreb.active != "1"),
                         add_if_not_empty_string("system".to_owned(), npubegreb.system),
                         add_if_not_empty_string("sys_spec".to_owned(), npubegreb.sys_spec),
                         add_if_not_empty_string("component".to_owned(), npubegreb.component),
