@@ -613,4 +613,69 @@
         <active>1</active>
         <current_version>true</current_version>
     </Npubegreb>
+    <Npubegreb>
+        <created_date>1996-01-01 01:00</created_date>
+        <change_date>2017-01-10 14:30</change_date>
+        <change_comment>Name changed</change_comment>
+        <npu_code>NPU03827</npu_code>
+        <short_definition>P—Fibrinopeptide B[beta](1-42); subst.c.(imm.;proc.) = ? nmol/L</short_definition>
+        <system_short>P</system_short>
+        <sys_spec_short></sys_spec_short>
+        <component_short>Fibrinopeptide B[beta](1-42)</component_short>
+        <comp_spec_short></comp_spec_short>
+        <kind_of_property_short>subst.c.</kind_of_property_short>
+        <proc_short>imm.; proc. </proc_short>
+        <unit_short>nmol/L</unit_short>
+        <full_definition>Plasma—Fibrinopeptide B[beta](1-42); substance
+            concentration(immunological;procedure) = ? nanomole per litre</full_definition>
+        <system>Plasma</system>
+        <sys_spec></sys_spec>
+        <component>Fibrinopeptide B[beta](1-42)</component>
+        <comp_spec></comp_spec>
+        <kind_of_property>substance concentration</kind_of_property>
+        <proc>immunological; procedure </proc>
+        <unit>nanomole per litre</unit>
+        <specialty>TAH</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>1996-01-01 01:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
+    <Npubegreb>
+        <created_date>2025-05-09 10:54</created_date>
+        <change_date>2025-05-09 10:54</change_date>
+        <change_comment>Created</change_comment>
+        <npu_code>NPU63222</npu_code>
+        <short_definition>Lymcs(Marrow)—T-lymphocytes(CD4+); num.fr. = ? %</short_definition>
+        <system_short>Lymcs</system_short>
+        <sys_spec_short>Marrow </sys_spec_short>
+        <component_short>T-lymphocytes</component_short>
+        <comp_spec_short>CD4+ </comp_spec_short>
+        <kind_of_property_short>num.fr.</kind_of_property_short>
+        <proc_short></proc_short>
+        <unit_short>%</unit_short>
+        <full_definition>Lymphocytes(Bone marrow)—T-lymphocytes(CD4+); number fraction = ? 10&lt;sup&gt;-2&lt;/sup&gt;</full_definition>
+        <system>Lymphocytes</system>
+        <sys_spec>Bone marrow </sys_spec>
+        <component>T-lymphocytes</component>
+        <comp_spec>CD4+ </comp_spec>
+        <kind_of_property>number fraction</kind_of_property>
+        <proc></proc>
+        <unit>10&lt;sup&gt;-2&lt;/sup&gt;</unit>
+        <specialty>IMM</specialty>
+        <context_dependent></context_dependent>
+        <group></group>
+        <scale_type>Ratio</scale_type>
+        <replaces></replaces>
+        <replaced_by></replaced_by>
+        <effective_from>2025-05-09 00:00</effective_from>
+        <effective_to></effective_to>
+        <active>1</active>
+        <current_version>true</current_version>
+    </Npubegreb>
 </Npubegreber>
