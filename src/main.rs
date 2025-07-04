@@ -60,7 +60,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .title("NPU Terminology Code System".to_owned())
         .status(codes::PublicationStatus::Active)
         .experimental(false)
-        .publisher("Danish National eHealth Authority".to_owned())
+        .publisher("Danish Health Data Authority".to_owned())
         .contact(vec![Some(
             types::ContactDetail::builder()
                 .name("Danish National eHealth Authority".to_owned())
